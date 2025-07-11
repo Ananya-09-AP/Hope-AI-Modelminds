@@ -245,7 +245,8 @@ def trigger_intervention(prediction):
         intervention_types = [
             {'type': 'discount', 'message': 'Get 15% off your entire order!', 'value': 15},
             {'type': 'free_shipping', 'message': 'Free shipping on your order!', 'value': 0},
-            {'type': 'limited_time', 'message': 'Limited time: 20% off everything!', 'value': 20}
+            {'type': 'limited_time', 'message': 'Limited time: 20% off everything!', 'value': 20},
+            {'type': 'waiting_cart', 'message': 'Your cart is waiting! Complete your purchase before items run out.', 'value': None}
         ]
         
         intervention = random.choice(intervention_types)
