@@ -331,7 +331,7 @@ def home_page():
 
 def shopping_page():
     """Shopping page with products and cart"""
-    st.title("🛍️ SmartMart Shopping")
+    st.title("🛍️ Click&Cart Shopping")
     
     # Search and filters
     col1, col2, col3 = st.columns([2, 1, 1])
